@@ -1,4 +1,5 @@
 ﻿using Lab2.Data;
+using Lab2.Service;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -8,7 +9,7 @@ using System.Windows.Forms;
 
 namespace Lab2.Repository
 {
-    class ClsRPersona
+    class ClsRPersona : IPersona
     {
         public void Guardar(persona persona)
         {
@@ -16,10 +17,7 @@ namespace Lab2.Repository
             {
                 try
                 {
-                    //Para insertar la informacion en la base de datos.
                     conexionBd.persona.Add(persona);
-
-                    //Para guardar los cambios.
                     conexionBd.SaveChanges();
                     MessageBox.Show("Guardado");
                 }
@@ -30,7 +28,7 @@ namespace Lab2.Repository
             }
         }
 
-        public List<persona> ListOfDataOfTablePersona()
+        public List<persona> listardatos()
         {
             using (almacendepersonasEntities conexionBd = new almacendepersonasEntities())
             {
