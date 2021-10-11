@@ -34,7 +34,7 @@ namespace Lab2.Repository
         {
             using (almacendepersonasEntities conexionBd = new almacendepersonasEntities())
             {
-                List<persona> ListaOfData = conexionBd.persona.ToList(); // = Selcet * from estudiante
+                List<persona> ListaOfData = conexionBd.persona.ToList();
                 return ListaOfData;
             }
         }
