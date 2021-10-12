@@ -35,8 +35,8 @@ namespace Lab2
 
         private void button2_Click(object sender, EventArgs e)
         {
-            //FrmGuardarInformacion
-            //formulario.Show();
+            FrmMostrarInformacion formulario = new FrmMostrarInformacion();
+            formulario.Show();
         }
     }
 }

@@ -51,7 +51,6 @@ namespace Lab2.Vistas
             this.ListPersona.RowTemplate.Height = 24;
             this.ListPersona.Size = new System.Drawing.Size(776, 262);
             this.ListPersona.TabIndex = 0;
-            this.ListPersona.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.ListPersona_CellContentClick);
             // 
             // Column1
             // 
@@ -90,6 +89,7 @@ namespace Lab2.Vistas
             this.Controls.Add(this.ListPersona);
             this.Name = "FrmMostrarInformacion";
             this.Text = "FrmMostrarInformacion";
+            this.Load += new System.EventHandler(this.FrmMostrarInformacion_Load);
             ((System.ComponentModel.ISupportInitialize)(this.ListPersona)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

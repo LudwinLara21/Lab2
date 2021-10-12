@@ -18,7 +18,7 @@ namespace Lab2.Vistas
             InitializeComponent();
         }
 
-        private void ListPersona_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        private void FrmMostrarInformacion_Load(object sender, EventArgs e)
         {
             ClsPersona persona = new ClsPersona();
             var ok = persona.listardatos();
