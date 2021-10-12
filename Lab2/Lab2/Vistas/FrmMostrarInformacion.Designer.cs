@@ -45,12 +45,14 @@ namespace Lab2.Vistas
             this.Column1,
             this.Column2,
             this.Column3});
-            this.ListPersona.Location = new System.Drawing.Point(12, 147);
+            this.ListPersona.Location = new System.Drawing.Point(11, 67);
+            this.ListPersona.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.ListPersona.Name = "ListPersona";
             this.ListPersona.RowHeadersWidth = 51;
             this.ListPersona.RowTemplate.Height = 24;
-            this.ListPersona.Size = new System.Drawing.Size(776, 262);
+            this.ListPersona.Size = new System.Drawing.Size(582, 288);
             this.ListPersona.TabIndex = 0;
+            this.ListPersona.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.ListPersona_CellContentClick);
             // 
             // Column1
             // 
@@ -74,19 +76,24 @@ namespace Lab2.Vistas
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(251, 119);
+            this.label1.ForeColor = System.Drawing.Color.Crimson;
+            this.label1.Location = new System.Drawing.Point(182, 35);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(292, 25);
+            this.label1.Size = new System.Drawing.Size(243, 20);
             this.label1.TabIndex = 3;
             this.label1.Text = "Mostrando Datos de Persona";
             // 
             // FrmMostrarInformacion
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.BackColor = System.Drawing.Color.CadetBlue;
+            this.ClientSize = new System.Drawing.Size(600, 366);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.ListPersona);
+            this.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "FrmMostrarInformacion";
             this.Text = "FrmMostrarInformacion";
             this.Load += new System.EventHandler(this.FrmMostrarInformacion_Load);

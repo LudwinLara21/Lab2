@@ -12,8 +12,5 @@ namespace Lab2.Service
         void Guardar(persona persona);
         List<persona> listardatos();
 
-
-        
-
     }
 }
