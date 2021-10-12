@@ -19,7 +19,6 @@ namespace Lab2.Repository
                 {
                     conexionBd.persona.Add(persona);
                     conexionBd.SaveChanges();
-                    MessageBox.Show("Guardado");
                 }
                 catch (Exception ex)
                 {
