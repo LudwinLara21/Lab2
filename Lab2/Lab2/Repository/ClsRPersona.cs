@@ -22,7 +22,9 @@ namespace Lab2.Repository
                 }
                 catch (Exception ex)
                 {
+
                     MessageBox.Show("Error de base de datos" + ex);
+
                 }
             }
         }
