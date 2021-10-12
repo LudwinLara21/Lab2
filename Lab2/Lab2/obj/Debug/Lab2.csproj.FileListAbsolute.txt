@@ -13,3 +13,19 @@ C:\Users\Español\Documents\GitHub\Lab2\Lab2\Lab2\obj\Debug\Lab2.exe
 C:\Users\Español\Documents\GitHub\Lab2\Lab2\Lab2\obj\Debug\Lab2.pdb
 C:\Users\Español\Documents\GitHub\Lab2\Lab2\Lab2\obj\Debug\Lab2.Vistas.FrmMostrarInformacion.resources
 C:\Users\Español\Documents\GitHub\Lab2\Lab2\Lab2\obj\Debug\Lab2.Form1.resources
+C:\Users\JORDI CORTEZ\Documents\GitHub\Lab2\Lab2\Lab2\bin\Debug\Lab2.exe.config
+C:\Users\JORDI CORTEZ\Documents\GitHub\Lab2\Lab2\Lab2\bin\Debug\Lab2.exe
+C:\Users\JORDI CORTEZ\Documents\GitHub\Lab2\Lab2\Lab2\bin\Debug\Lab2.pdb
+C:\Users\JORDI CORTEZ\Documents\GitHub\Lab2\Lab2\Lab2\bin\Debug\EntityFramework.dll
+C:\Users\JORDI CORTEZ\Documents\GitHub\Lab2\Lab2\Lab2\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\JORDI CORTEZ\Documents\GitHub\Lab2\Lab2\Lab2\bin\Debug\EntityFramework.xml
+C:\Users\JORDI CORTEZ\Documents\GitHub\Lab2\Lab2\Lab2\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\JORDI CORTEZ\Documents\GitHub\Lab2\Lab2\Lab2\obj\Debug\Lab2.csproj.AssemblyReference.cache
+C:\Users\JORDI CORTEZ\Documents\GitHub\Lab2\Lab2\Lab2\obj\Debug\Lab2.Properties.Resources.resources
+C:\Users\JORDI CORTEZ\Documents\GitHub\Lab2\Lab2\Lab2\obj\Debug\Lab2.Vistas.FrmMostrarInformacion.resources
+C:\Users\JORDI CORTEZ\Documents\GitHub\Lab2\Lab2\Lab2\obj\Debug\Lab2.Form1.resources
+C:\Users\JORDI CORTEZ\Documents\GitHub\Lab2\Lab2\Lab2\obj\Debug\Lab2.csproj.GenerateResource.cache
+C:\Users\JORDI CORTEZ\Documents\GitHub\Lab2\Lab2\Lab2\obj\Debug\Lab2.csproj.CoreCompileInputs.cache
+C:\Users\JORDI CORTEZ\Documents\GitHub\Lab2\Lab2\Lab2\obj\Debug\Lab2.csproj.CopyComplete
+C:\Users\JORDI CORTEZ\Documents\GitHub\Lab2\Lab2\Lab2\obj\Debug\Lab2.exe
+C:\Users\JORDI CORTEZ\Documents\GitHub\Lab2\Lab2\Lab2\obj\Debug\Lab2.pdb

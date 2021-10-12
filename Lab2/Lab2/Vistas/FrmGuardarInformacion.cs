@@ -38,5 +38,14 @@ namespace Lab2
             FrmMostrarInformacion formulario = new FrmMostrarInformacion();
             formulario.Show();
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            DialogResult result = MessageBox.Show("¿Estás seguro que quieres salir?", "Estas por cerrar la ventana", MessageBoxButtons.YesNo);
+            if (result == System.Windows.Forms.DialogResult.Yes) { 
+            
+                Application.Exit();
+            }
+        }
     }
 }
