@@ -79,11 +79,11 @@
     <Compile Include="Vistas\FrmMostrarInformacion.Designer.cs">
       <DependentUpon>FrmMostrarInformacion.cs</DependentUpon>
     </Compile>
-    <Compile Include="Vistas\Guardado.cs">
+    <Compile Include="Vistas\FrmGuardarInformacion.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Vistas\Guardado.Designer.cs">
-      <DependentUpon>Guardado.cs</DependentUpon>
+    <Compile Include="Vistas\FrmGuardarInformacion.Designer.cs">
+      <DependentUpon>FrmGuardarInformacion.cs</DependentUpon>
     </Compile>
     <Compile Include="Negocio\ClsPersona.cs" />
     <Compile Include="Program.cs" />
@@ -99,6 +99,12 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Vistas\FrmMostrarInformacion.resx">
+      <DependentUpon>FrmMostrarInformacion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\FrmGuardarInformacion.resx">
+      <DependentUpon>FrmGuardarInformacion.cs</DependentUpon>
+    </EmbeddedResource>
     <EntityDeploy Include="Data\BDAlmacenPersona.edmx">
       <Generator>EntityModelCodeGenerator</Generator>
       <LastGenOutput>BDAlmacenPersona.Designer.cs</LastGenOutput>

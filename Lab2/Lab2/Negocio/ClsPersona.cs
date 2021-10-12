@@ -1,12 +1,15 @@
-﻿using System;
+﻿using Lab2.Data;
+using Lab2.Repository;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Forms;
 
 namespace Lab2.Negocio
 {
-    class ClsPersona
+    class ClsPersona : ClsRPersona
     {
         public void Guardando(persona per)
         {

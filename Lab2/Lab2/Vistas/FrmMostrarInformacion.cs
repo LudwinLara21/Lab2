@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Lab2.Negocio;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -15,6 +16,17 @@ namespace Lab2.Vistas
         public FrmMostrarInformacion()
         {
             InitializeComponent();
+        }
+
+        private void ListPersona_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+            ClsPersona persona = new ClsPersona();
+            var ok = persona.listardatos();
+
+            foreach (var iterar in ok)
+            {
+                ListPersona.Rows.Add(iterar.nombrePersona, iterar.edadPersona, iterar.descripcionPersona);
+            }
         }
     }
 }
